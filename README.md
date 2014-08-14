@@ -9,7 +9,10 @@ overview of the hierarchy, see
 
 The compiler emits Java bytecode in the Jasmin format. You'll need to
 install the Jasmin assembler to turn the emitted .j files into .class
-files. For more information on Jasmin, see [http://jasmin.sourceforge.net/].
+files. For more information on Jasmin, see http://jasmin.sourceforge.net/.
+
+To build the compiler you'll also need to install the Menhir parser
+generator, see http://gallium.inria.fr/~fpottier/menhir/.
 
 The compiler was developed as part of (a previous version of) the
 undergraduate compiler course at Aarhus University.
